@@ -44,7 +44,7 @@ ul {
 	min-height: 50px;
 	padding: 35px 0px 0px 0px;
 	text-align: center;
-	width:80%;
+	width:90%;
 	border-bottom: 1px solid green;
 }
 
@@ -58,28 +58,33 @@ ul {
 	display: inline-block;
 	margin: 10px 0px 30px 10px;
 }
+
+#people-left{
+	width: 48%;
+	float:left;
+}
+#people-right{
+	width: 48%;
+	float:right;
+}
 #people img{
 	display: block;
 	height: 180px;
 	padding: 10px 0px 10px 0px;
 }
-#people-left{
-	width: 40%;
-	float:left;
-}
-#people-right{
-	width: 40%;
-	float:right;
-}
-#details{
 
+#details {
+
+}
+iframe {
+	width: 600px;
+	height: 300px;
+	margin: 10px 0px 30px 10px;
+}
+#registry{
 }
 
 #photos{
-
-}
-
-#registry{
 
 }
 

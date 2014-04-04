@@ -1,1 +1,88 @@
-div {}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+#main_body {
+	text-align: center;
+	font-family: Garamond;
+	width: 100%;
+	margin: 0 auto;
+}
+#header {
+	min-height: 50px;
+	width:100%;
+	position: fixed;
+	z-index: 1;
+	margin: 0px auto;
+	background-color: white;
+	border-bottom: 2px solid black;
+}
+#header img {
+	float: left;
+	height: 50px;
+}
+
+#header a {
+	float:right;
+	font-size: 115%;
+	text-decoration: none;
+	padding: 0px 20px 0px 20px;
+}
+#header a:hover{
+	background-color: gray;
+}
+
+#header li {
+	list-style: none;
+	text-align:center;
+	line-height: 50px;
+}
+
+.content{
+	display: block;
+	margin: 0px auto;
+	min-height: 50px;
+	padding: 35px 0px 0px 0px;
+	text-align: center;
+	width:80%;
+	border-bottom: 1px solid green;
+}
+
+#welcome{
+ padding: 50px 0px 0px 0px;
+}
+#story{
+
+}
+#people {
+	display: inline-block;
+	margin: 10px 0px 30px 10px;
+}
+#people img{
+	display: block;
+	height: 180px;
+	padding: 10px 0px 10px 0px;
+}
+#people-left{
+	width: 40%;
+	float:left;
+}
+#people-right{
+	width: 40%;
+	float:right;
+}
+#details{
+
+}
+
+#photos{
+
+}
+
+#registry{
+
+}
+
+
+
+

@@ -1,3 +1,9 @@
+/*
+Plum = #460140
+Gray = #949494
+Black = black
+*/
+
 ul {
 	padding: 0px;
 	margin: 0px;
@@ -13,50 +19,47 @@ ul {
 	width:100%;
 	position: fixed;
 	z-index: 1;
-	margin: 0px auto;
 	background-color: white;
-	border-bottom: 2px solid black;
-}
-#header img {
-	float: left;
-	height: 50px;
+	border-bottom: 2px solid #949494;
 }
 
 #header a {
-	float:right;
-	font-size: 115%;
+	font-size: 20px;
 	text-decoration: none;
-	padding: 0px 20px 0px 20px;
+	padding: 20px 20px 20px 20px;
+	color: #460140;
 }
 #header a:hover{
-	background-color: gray;
+	background-color: #949494;
 }
 
 #header li {
+	display: inline;
 	list-style: none;
 	text-align:center;
-	line-height: 50px;
+	line-height: 60px;
+	font-weight: bold;
 }
 
 .content{
 	display: block;
 	margin: 0px auto;
 	min-height: 50px;
-	padding: 35px 0px 0px 0px;
+	padding: 61px 0px 0px 0px;
 	text-align: center;
 	width:90%;
-	border-bottom: 1px solid green;
+	border-bottom: 2px solid #949494;
 }
 
 #welcome{
- padding: 50px 0px 0px 0px;
-}
-#story{
 
 }
+#welcome img, #footer img{
+	width: 100%;
+}
+
 #people {
-	display: inline-block;
-	margin: 10px 0px 30px 10px;
+
 }
 
 #people-left{

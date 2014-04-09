@@ -42,13 +42,14 @@ ul {
 }
 
 .content{
-	display: inline-table;
+	display: block;
 	margin: 0px auto;
 	min-height: 50px;
 	padding: 61px 0px 0px 0px;
 	text-align: center;
 	width:90%;
 	border-bottom: 2px solid #949494;
+	background-color: blue;
 }	
 
 #welcome{
@@ -59,7 +60,7 @@ ul {
 }
 
 #people {
-
+	display: inline-table;
 }
 
 #people-left{
@@ -79,17 +80,6 @@ ul {
 #details {
 
 }
-
-.left, .center{
-	width: 30%;
-	float:left;
-	margin-right:5%;
-}
-.right{
-	width: 30%;
-	float:left;
-}
-
 iframe {
 	height: 400px;
 	width: 98%;

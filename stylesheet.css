@@ -3,14 +3,10 @@ Plum = #460140
 Gray = #949494
 Black = black
 */
-
-ul {
-	padding: 0px;
-	margin: 0px;
-}
 #main_body {
 	text-align: center;
 	font-family: Garamond;
+	font-size: 105%;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -31,6 +27,11 @@ ul {
 }
 #header a:hover{
 	background-color: #949494;
+}
+
+#header ul {
+	padding: 0px;
+	margin: 0px;
 }
 
 #header li {
@@ -54,7 +55,8 @@ ul {
 #welcome{
 
 }
-#welcome img, #footer img{
+
+#welcome img, #footer img, #registry img{
 	width: 100%;
 }
 
@@ -73,7 +75,7 @@ ul {
 #people img{
 	display: block;
 	height: 200px;
-	padding: 10px 0px 10px 0px;
+	padding: 10px;
 }
 
 #details {
@@ -93,8 +95,6 @@ ul {
 iframe {
 	height: 400px;
 	width: 98%;
-}
-#registry{
 }
 
 #photos{

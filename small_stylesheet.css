@@ -42,55 +42,44 @@ ul {
 }
 
 .content{
-	display: block;
+	display: inline-table;
 	margin: 0px auto;
 	min-height: 50px;
 	padding: 61px 0px 0px 0px;
 	text-align: center;
 	width:90%;
 	border-bottom: 2px solid #949494;
-	background-color: blue;
 }	
 
 #welcome{
 
 }
-#welcome img, #footer img{
+
+#welcome img, #footer img, #registry img{
 	width: 100%;
 }
 
 #people {
-	display: inline-table;
+
 }
 
-#people-left{
-	width: 48%;
-	float:left;
-}
-#people-right{
-	width: 48%;
-	float:right;
-}
 #people img{
 	display: block;
 	height: 200px;
-	padding: 10px 0px 10px 0px;
+	padding: 10px;
 }
 
 #details {
 
 }
+
+
+
 iframe {
 	height: 400px;
 	width: 98%;
-}
-#registry{
 }
 
 #photos{
 
 }
-
-
-
-

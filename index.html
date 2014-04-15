@@ -4,7 +4,7 @@
 		<title>Christy & Andy</title>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<link type="text/css" rel="stylesheet" media="screen and (max-width: 800px)" href="small_stylesheet.css"/>
-		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<link type="text/css" rel="stylesheet" media="screen" href="slideshow/css/flexslider.css"  />
 	</head>
 	<body id="main_body">
 		<div id="header">
@@ -55,7 +55,7 @@
 						</td>
 						<td>
 							<h3>Diana Pooley</h3>
-							<p>This is the description part. Could be very long. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Almost fifteen (!) years ago, Christy and Diana met on the campus of Bates College amidst the colors of fall in Maine. Many of Christy's college escapades included Diana. Christy smiles when she remembers all that they have and will continue to share which includes, but isn't limited to: dorm life, long conversations, apricot paste, deep thinking, ministry, and a love of middle eastern food.</p>
 						</td>
 					</tr>
 					
@@ -65,7 +65,7 @@
 						</td>
 						<td>
 							<h3>Elise Steel</h3>
-							<p>This is the description part. Could be very long. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Christy remembers meeting Elise during her first week of seminary in Chicago. They made a quick coastal connection (east coast meets west!) over the awkwardness that is learning the biblical Greek language. Adventures with Elise have included a Halloween as Thema & Louise, road tripping from MA to IL by way of The Pizza Shop, and introducing Christy to Mary Oliver. Elise has a great way of living as a "cheerleader" for her friends, and Christy is glad that Elise has been in the stands rooting for her along the way.</p>
 						</td>
 					</tr>
 					
@@ -75,7 +75,7 @@
 						</td>
 						<td>
 							<h3>Christina Tinglof</h3>
-							<p>This is the description part. Could be very long. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Christina and Christy met when they were both in youth ministry in Massachusetts. Christy owes her a debt of gratitude for an overdue introduction to the beauty that was the television series My So Called Life. Beyond this enriching gift, Christina has been the giver of many gifts - Christy's first Covenant Book of Worship, refreshing phone calls, fostering a love of Lauryn Hill, and many many many gchats.</p>
 						</td>
 					</tr>
 				</table>
@@ -170,51 +170,39 @@
 		<div id="photos" class="content">
 			<!--This is where some pictures will be.-->
 			<h1>Photos</h1>
-				 <section class="slider">
+				<section class="slider">
 					<div class="flexslider">
 					  <ul class="slides">
 						<li>
-							<img src="github/08162014\slideshow\images/s1" />
+							<img src="http://www.08162014.com//slideshow/images/s1.jpg" />
 						</li>
 						<li>
-							<img src="08162014\slideshow\images/s2" />
+							<img src="http://www.08162014.com//slideshow/images/s1.jpg" />
 						</li>
 						<li>
-							<img src="08162014\slideshow\images/s3" />
+							<img src="http://www.08162014.com//slideshow/images/s3.jpg" />
 						</li>
 						<li>
-							<img src="08162014\slideshow\images/s1" />
+							<img src="http://www.08162014.com//slideshow/images/s1.jpg" />
 						</li>
 					  </ul>
 					</div>
-				  </section>
-				  
-				  	<!-- jQuery -->
-					  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-					  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-
-					  <!-- FlexSlider -->
-					  <script defer src="js/jquery.flexslider.js"></script>
-
-					  <script type="text/javascript">
-						$(function(){
-						  SyntaxHighlighter.all();
+				 </section>
+				<!-- jQuery -->
+					<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+					<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+				<!-- FlexSlider -->
+					<script defer src="slideshow/js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+						$(window).load(function() {
+							$('.flexslider').flexslider({
+							animation: "slide"
+							});
 						});
-						$(window).load(function(){
-						  $('.flexslider').flexslider({
-							animation: "slide",
-							start: function(slider){
-							  $('body').removeClass('loading');
-							}
-						  });
-						});
-					  </script>
-				  
-				  
-				  
+					</script>
 		</div>
 		<div id="footer">
-			<!--This is the footer.
+			<!--This is the footer.-->
 			<h2>Christy and Andy get married in 
 				<script language="JavaScript">
 					TargetDate = "08/16/2014 2:00 PM";
@@ -225,7 +213,7 @@
 					FinishMessage = "It is finally here!";
 				</script>
 				<script language="JavaScript" src="http://www.08162014.com/javascript/countdown.js"></script>
-			</h2>-->
+			</h2>
 			
 			<img src="http://www.08162014.com/images/website_logo.jpg"/>
 		</div>

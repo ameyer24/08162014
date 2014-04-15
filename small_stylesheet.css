@@ -3,16 +3,13 @@ Plum = #460140
 Gray = #949494
 Black = black
 */
-
-ul {
-	padding: 0px;
-	margin: 0px;
-}
 #main_body {
 	text-align: center;
 	font-family: Garamond;
+	font-size: 105%;
 	width: 100%;
 	margin: 0 auto;
+	background-color: gray;
 }
 #header {
 	min-height: 50px;
@@ -31,6 +28,11 @@ ul {
 }
 #header a:hover{
 	background-color: #949494;
+}
+
+#header ul {
+	padding: 0px;
+	margin: 0px;
 }
 
 #header li {
@@ -55,16 +57,21 @@ ul {
 
 }
 
-#welcome img, #footer img, #registry img{
+#welcome img, #footer img, #details img, #registry img{
 	width: 100%;
 }
 
 #people {
-
+	display: block;
 }
 
+#people-left{
+	width:100%;
+}
+#people-right{
+	width:100%;
+}
 #people img{
-	display: block;
 	height: 200px;
 	padding: 10px;
 }
@@ -73,7 +80,12 @@ ul {
 
 }
 
-
+.left, .center{
+	width:100%;
+}
+.right{
+	width:100%;
+}
 
 iframe {
 	height: 400px;
@@ -83,3 +95,7 @@ iframe {
 #photos{
 
 }
+
+
+
+

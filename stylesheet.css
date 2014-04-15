@@ -5,8 +5,7 @@ Black = black
 */
 #main_body {
 	text-align: center;
-	font-family: Garamond;
-	font-size: 105%;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -56,7 +55,7 @@ Black = black
 
 }
 
-#welcome img, #footer img, #registry img{
+#welcome img, #footer img, #details img, #registry img, #photos img{
 	width: 100%;
 }
 
@@ -90,6 +89,20 @@ Black = black
 .right{
 	width: 30%;
 	float:left;
+}
+
+#left_half {
+	width: 40%;
+	float:left;
+	margin-right:20%;
+}
+
+#right_half {
+	width: 40%;
+	float:right;
+}
+#registry_footer {
+	clear:both;
 }
 
 iframe {

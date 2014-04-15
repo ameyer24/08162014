@@ -24,9 +24,6 @@ Black = black
 	padding: 20px 20px 20px 20px;
 	color: #460140;
 }
-#header a:hover{
-	background-color: #949494;
-}
 
 #header ul {
 	padding: 0px;

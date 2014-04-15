@@ -41,6 +41,11 @@ Black = black
 	font-weight: bold;
 }
 
+#footer {
+	width: 100%;
+	border-top: 2px solid #949494;
+}
+
 .content{
 	display: inline-table;
 	margin: 0px auto;
@@ -91,28 +96,18 @@ Black = black
 	float:left;
 }
 
-#left_half {
-	width: 40%;
-	float:left;
-	margin-right:20%;
-}
-
-#right_half {
-	width: 40%;
-	float:right;
-}
-#registry_footer {
-	clear:both;
-}
-
 iframe {
 	height: 400px;
 	width: 98%;
+}
+#registry {
+
 }
 
 #photos{
 
 }
+
 
 
 

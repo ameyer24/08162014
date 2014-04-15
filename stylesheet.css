@@ -60,7 +60,7 @@ Black = black
 
 }
 
-#welcome img, #footer img, #details img, #registry img, #photos img{
+#welcome img, #footer img, #details img, #registry img{
 	width: 100%;
 }
 
@@ -107,6 +107,7 @@ iframe {
 #photos{
 
 }
+
 
 
 

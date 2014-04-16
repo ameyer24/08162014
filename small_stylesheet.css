@@ -56,8 +56,12 @@ Black = black
 
 }
 
-#welcome img, #footer img, #details img, #registry img{
+#welcome img, #footer img, #details img{
 	width: 100%;
+}
+
+#registry img {
+	width: 50%;
 }
 
 #people {

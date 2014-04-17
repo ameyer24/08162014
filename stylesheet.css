@@ -59,6 +59,7 @@ Black = black
 
 #welcome img, #footer img, #details img, #registry img{
 	width: 100%;
+	border:0;
 }
 
 #people {
@@ -97,8 +98,8 @@ iframe {
 	height: 400px;
 	width: 98%;
 }
-#registry {
-
+#registry a img{
+	outline: none;
 }
 
 #photos{

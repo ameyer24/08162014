@@ -187,11 +187,11 @@ html[xmlns] .slides {display: block;}
     width: 28px;
 }
 .flex-direction-nav .flex-next {
-    background: url("../images/right.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-image: url(http://www.08162014.com/images/slideshow/right.png);
     right: 0;
 }
 .flex-direction-nav .flex-prev {
-    background: url("../images/left.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-image: url(http://www.08162014.com/images/slideshow/left.png);
     left: 0;
 }
 .flexslider:hover .flex-next {

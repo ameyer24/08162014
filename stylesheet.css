@@ -9,7 +9,7 @@ Black = black
 	width: 100%;
 	margin: 0 auto;
 }
-#header {
+.header {
 	min-height: 50px;
 	width:100%;
 	position: fixed;
@@ -18,19 +18,19 @@ Black = black
 	border-bottom: 2px solid #949494;
 }
 
-#header a {
+.header a {
 	font-size: 20px;
 	text-decoration: none;
 	padding: 20px 20px 20px 20px;
 	color: #460140;
 }
 
-#header ul {
+.header ul {
 	padding: 0px;
 	margin: 0px;
 }
 
-#header li {
+.header li {
 	display: inline;
 	list-style: none;
 	text-align:center;
